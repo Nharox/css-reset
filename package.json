@@ -1,0 +1,23 @@
+{
+  "name": "@nharox/css-reset",
+  "type": "module",
+  "version": "1.0.0",
+  "author": "Dominik Gallitzendörfer <hello@nharox.com>",
+  "main": "./reset.css",
+  "repository": "https://github.com/nharox/css-reset",
+  "license": "MIT",
+  "stylelint": {
+    "extends": "@nharox/astro-stylelint-config"
+  },
+  "keywords": [
+    "css",
+    "reset"
+  ],
+  "scripts": {
+    "stylelint": "stylelint --fix \"./reset.css\"",
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "@nharox/astro-stylelint-config": "^2.1.1"
+  }
+}
