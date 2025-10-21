@@ -10,7 +10,7 @@ A modern CSS reset.
 npm install --save-dev @nharox/css-reset
 ```
 
-2. Import `reset.css`, preferably with [postcss-import](https://github.com/postcss/postcss-import) in your global CSS:
+2. Import `reset.css`, preferably with [postcss-import](https://github.com/postcss/postcss-import), in your global CSS:
 
 ```css
 /* Without @layer */
